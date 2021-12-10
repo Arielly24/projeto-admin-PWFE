@@ -13,27 +13,27 @@
     </head>
     <body>
         <header>
-            <a href="" class="logo">
+            <a href="index.php" class="logo">
                 <img src="./img/logo-admin.jfif" alt="Logo" width="90vh" />
             </a>
 
             <nav class="links">
                 <ul>
-                    <li><a href="" class="rosa-claro">Atendimento</a></li>
-                    <li><a href="" class="rosa-claro">Lojas parceiras</a></li>
+                    <li><a href="atendimento/atendimento.html" class="rosa-claro">Atendimento</a></li>
+                    <li><a href="lojas_parceiras/lojas.html" class="rosa-claro">Lojas parceiras</a></li>
                     <li>
-                        <a href="" class="rosa-claro"
+                        <a href="tela_tom_pele/index.php" class="rosa-claro"
                             >Encontre seu <br />
                             tom de pele</a
                         >
                     </li>
                     <li>
-                        <a href="" class="rosa-claro"
+                        <a href="tela_de_tutoriais/tutorial.html" class="rosa-claro"
                             >Tutorial</a>
                     </li>
                     <li class="loja">
                         <a
-                            href="https://www.figma.com/file/3ZIjgQzrDCkVdHwmkTizl6/Clarissa-Estelia-Makeup?node-id=2%3A4"
+                            href="tela_cadastro/login/login.php"
                         >
                            Login</a
                         >
@@ -45,17 +45,17 @@
             <section class="produtos">
                 <ul>
                     <li>
-                        <a href="" class="btn-produto">Descubra</a>
+                        <a href="tela_produtos/index.php" class="btn-produto">Descubra</a>
                     </li>
 
                     <li>
-                        <a href="" class="btn-produto">Rosto</a>
+                        <a href="tela_produtos/index.php" class="btn-produto">Rosto</a>
                     </li>
                     <li>
-                        <a href="" class="btn-produto">Olhos</a>
+                        <a href="tela_produtos/index.php" class="btn-produto">Olhos</a>
                     </li>
                     <li>
-                        <a href="" class="btn-produto">Boca</a>
+                        <a href="tela_produtos/index.php" class="btn-produto">Boca</a>
                     </li>
                 </ul>
             </section>

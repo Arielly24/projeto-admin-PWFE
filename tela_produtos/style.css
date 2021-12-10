@@ -154,7 +154,6 @@ header {
 
 .foto {
     display: flex;
-
     justify-content: center;
     align-items: center;
     padding-left: 1vw;
@@ -163,9 +162,10 @@ header {
     background-color: whitesmoke;
 }
 
-.img1 {
+.img {
     width: 100vw;
     height: 100vh;
+
 }
 
 .title {

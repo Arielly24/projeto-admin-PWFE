@@ -9,33 +9,28 @@
             rel="stylesheet"
             href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
         />
-        <title>CEM</title>
+        <title>PRODUTOS</title>
     </head>
     <body>
         <header>
-            <a href="" class="logo">
+            <a href="index.php" class="logo">
                 <img src="../img/logo-admin.jfif" alt="Logo" width="90vh" />
             </a>
 
             <nav class="links">
                 <ul>
-                    <li><a href="..//" class="rosa-claro">Login</a></li>
+                    <li><a href="..//tela_cadastro/login/login.php" class="rosa-claro">Login</a></li>
                     <li><a href="..//atendimento/atendimento.html" class="rosa-claro">Atendimento</a></li>
                     <li>
-                        <a href="..//" class="rosa-claro"
+                        <a href="..//..//tela_tom_pele/index.php" class="rosa-claro"
                             >Encontre seu <br />
                             tom de pele</a
                         >
                     </li>
                     <li>
                         <a href="..//tela_de_tutoriais/tutorial.html" class="rosa-claro"
-                            >Tutoriais<span>&#9662;</span></a
-                        >
-                        <ul class="submenu">
-                            <li><a href="" class="rosa-claro">Dia a dia</a></li>
-                            <li><a href="" class="rosa-claro">Trabalho</a></li>
-                            <li><a href="" class="rosa-claro">Festas</a></li>
-                        </ul>
+                            >Tutoriais</a>
+                        
                     </li>
                     <li class="loja">
                         <a
@@ -51,17 +46,17 @@
             <section class="produtos">
                 <ul>
                     <li>
-                        <a href="" class="btn-produto">Descubra</a>
+                        <a href="index.php" class="btn-produto">Descubra</a>
                     </li>
 
                     <li>
-                        <a href="" class="btn-produto">Rosto</a>
+                        <a href="index.php" class="btn-produto">Rosto</a>
                     </li>
                     <li>
-                        <a href="" class="btn-produto">Olhos</a>
+                        <a href="index.php" class="btn-produto">Olhos</a>
                     </li>
                     <li>
-                        <a href="" class="btn-produto">Boca</a>
+                        <a href="index.php" class="btn-produto">Boca</a>
                     </li>
                 </ul>
             </section>
