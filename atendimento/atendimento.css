@@ -34,6 +34,7 @@ header {
 
 .logo {
     margin-top: 5px;
+    border-radius: 20px;
 }
 
 .links ul {
@@ -92,13 +93,55 @@ h2 {
     padding-left: 10vh;
     font-size: 2vh;
     color: white;
+    border-radius: 5px;
 }
 .at {
     background-color: #ffa4a2;
     width: 15vw;
     height: 35vh;
-    margin-top: 10vh;
+    margin-top: 5vh;
+    border-radius: 10px;
 }
 p {
     padding-left: 10px;
+}
+
+footer {
+    display: flex;
+    margin-top: 146px;
+    background-color: black;
+    /* width: 204.9vw; */
+    height: 13vh;
+}
+
+.footer_class {
+    display: flex;
+    color: white;
+
+    gap: 25vw;
+    margin-left: 10vw;
+    /* margin-right: 10vw; */
+}
+.copyright {
+    display: flex;
+    margin-top: 9vh;
+}
+.informacoes {
+    margin-top: 5vh;
+}
+.img_copyright {
+    display: flex;
+    gap: 0.5vw;
+    position: absolute;
+    margin-top: 4vh;
+    margin-left: 32vw;
+}
+.redessociais {
+    border-radius: 100%;
+    width: 2vw;
+    height: 3vh;
+}
+h3 {
+    display: flex;
+    color: white;
 }

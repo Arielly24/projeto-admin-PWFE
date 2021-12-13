@@ -173,7 +173,7 @@ header {
 }
 
 .item {
-    width: 50vw;
+    width: 100vw;
     height: 5vh;
     transition: all 2s;
 }
@@ -182,7 +182,7 @@ header {
 }
 
 .item img {
-    width: 80vw;
+    width: 90vw;
     height: 59vh;
     border-radius: 10px;
 }
