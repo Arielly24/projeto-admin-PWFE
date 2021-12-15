@@ -77,22 +77,28 @@ header {
 /* fim do header */
 
 /* inicio do main */
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+}
 
 h1 {
-    padding-left: 90vh;
+    align-self: center;
     margin-top: 7vh;
     font-size: 50px;
 }
 
 h2 {
-    padding-left: 15vh;
+    align-self: center;
     margin-top: 2vh;
     font-size: 50px;
 }
 
 .descrições {
     display: flex;
-    gap: 10vh;
+    gap: 10%;
     align-items: center;
     justify-content: center;
 }

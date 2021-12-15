@@ -81,14 +81,19 @@ header {
 
 /* inicio do main */
 
+main{
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
-    padding-left: 90vh;
+    align-self: center;
     margin-top: 7vh;
     font-size: 50px;
 }
 
 h2 {
-    padding-left: 15vh;
+    align-self: center;
     margin-top: 2vh;
     font-size: 50px;
 }
@@ -156,7 +161,18 @@ h3 {
         flex-direction: column;
     }
 
-    
+    h1 {
+        padding-left: 0;
+        align-self: center;
+        margin-top: 7vh;
+        font-size: 24px;
+    }
+
+    h2 {
+        padding-left: 16vh;
+        margin-top: 2vh;
+        font-size: 5px;
+    }
     
 
 }
