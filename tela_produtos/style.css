@@ -240,3 +240,80 @@ h3 {
     display: flex;
     color: white;
 }
+@media (max-width: 768px) { 
+    
+    header{
+        gap: 0px;
+    }
+
+    .logo {
+        width: 200px;
+        height: 200px;
+        margin-top: 5px;
+        align-self: flex-start;
+        margin-left: 5px;
+    }
+    
+    .logo img{
+        width: 50px;
+        border-radius: 20%;
+    }
+    
+    .links{
+        display: flex;
+        flex-direction: row;
+
+        text-align: center;
+        align-items: center;
+    }
+   
+    .links .rosa-claro {  
+        
+        font-size: 0.7rem;
+        user-select: none;
+        border-radius: 5px;
+        background-color: #FFBCBB;
+        color: rgb(2, 1, 1);
+        border: none;
+        
+        width: 100px;
+        
+        padding: 8px;
+        align-self: center;
+        margin-left: 10px;
+        
+        align-items: center;
+        text-align: center;
+    }
+
+    .botoes{
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .loja {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #AF4448;
+        color: white;
+        border-radius: 5px;
+        font-size: 12px;
+        text-decoration-line: none;
+
+        width: 45px;
+        height: 45px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    .imagem-usuario{
+        display: flex;
+        margin-left: 6px;
+        width: 32px;
+        height: 32px;
+    }
+    
+} 
