@@ -82,7 +82,7 @@ input{
 /*  COMEÇO DO MAIN     */
 main{
     display: flex;
-    width: 98vw;
+    width: 100vw;
     height: 70vh;
     flex-direction: column;
     align-items: center;
