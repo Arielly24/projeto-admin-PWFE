@@ -9,48 +9,73 @@ body {
 }
 
 /* inicio do header */
-
 header {
-    background-color: #e57373;
-    height: 10vh;
     display: flex;
-    justify-content: space-between;
-    padding-left: 200px;
-    padding-right: 200px;
-    align-items: center;
+    flex-direction: row;
+    background-color: #E57373;
+    width: 100%;
+    height: 10vh;
+    gap: 40%;
+    /* justify-content: center; */
+
+    /* align-items: center; */
 }
 
 .logo {
     margin-top: 5px;
+    align-self: flex-start;
+    margin-left: 5vw;
 }
 
-.links ul {
+.logo img {
+    width: 87px;
+    border-radius: 20%;
+}
+
+.links {
     display: flex;
     flex-direction: row;
 
-    gap: 3vh;
-    list-style-type: none;
-}
-
-.links a {
-    text-decoration: none;
-    font-size: 20px;
-    user-select: none;
-    transition: all 1s;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     align-items: center;
-    width: 15vh;
-    height: 5vh;
 
-    border-radius: 2px;
-    font-size: 20px;
+    align-self: center;
+    justify-self: flex-end;
 
-    text-decoration-line: none;
 }
-.rosa-claro {
-    background-color: #e9c3c3;
+
+input{
+    cursor: pointer;
+}
+
+.links .rosa-claro {
+
+    font-size: 1.2rem;
+    user-select: none;
+    border-radius: 5px;
+    background-color: #FFBCBB;
     color: black;
+    border: none;
+
+    width: fit-content;
+    padding: 15px;
+    margin-left: 20px;
+
+}
+
+.loja {
+
+    padding: 15px;
+    background-color: #AF4448;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    text-decoration-line: none;
+
+    margin-left: 25px;
+    width: 120px;
+    height: 60px;
 }
 
 .tom {
@@ -65,6 +90,7 @@ header {
     color: white;
     text-decoration-line: none;
 }
+
 .loja {
     display: flex;
     justify-content: center;
@@ -81,33 +107,44 @@ header {
 /* fim do header */
 
 /* inicio do main */
+/*   ____________ 
+    /    R.I.P    \ 
+   |     main      |
+   |Descanse em paz|
+   |               | 
+   |      :(       |*/
+/* fim do main */
+
+
+main {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+}
 
 h1 {
-    padding-left: 90vh;
     margin-top: 7vh;
     font-size: 50px;
 }
 
 h2 {
-    padding-left: 15vh;
     margin-top: 2vh;
     font-size: 50px;
-}
-.SOP {
-    background-color: rgba(233, 86, 225, 0.836);
-    padding-left: 100px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .SOPmidia {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    width: 100%;
+    gap: 5%;
+    justify-content: center;
     margin-top: 80px;
 }
+
 P {
     font-family: 'Courier New', Courier, monospace;
 }
+
 footer {
     display: flex;
     margin-top: 199px;
@@ -124,13 +161,16 @@ footer {
     margin-left: 10vw;
     /* margin-right: 10vw; */
 }
+
 .copyright {
     display: flex;
     margin-top: 9vh;
 }
+
 .informacoes {
     margin-top: 6vh;
 }
+
 .img_copyright {
     display: flex;
     gap: 0.5vw;
@@ -138,90 +178,28 @@ footer {
     margin-top: 4vh;
     margin-left: 32vw;
 }
+
 .redessociais {
     border-radius: 100%;
     width: 2vw;
     height: 3vh;
 }
+
 h3 {
     display: flex;
     color: white;
 }
 
-@media (max-width: 768px) { 
-    
-    header{
-        gap: 0px;
+@media (max-width: 768px) {
+
+    main{
+        height: 200vh;
     }
 
-    .logo {
-        width: 200px;
-        height: 200px;
-        margin-top: 5px;
-        align-self: flex-start;
-        margin-left: 5px;
-    }
-    
-    .logo img{
-        width: 50px;
-        border-radius: 20%;
-    }
-    
-    .links{
-        display: flex;
-        flex-direction: row;
-
-        text-align: center;
-        align-items: center;
-    }
-   
-    .links .rosa-claro {  
-        
-        font-size: 0.7rem;
-        user-select: none;
-        border-radius: 5px;
-        background-color: #FFBCBB;
-        color: rgb(2, 1, 1);
-        border: none;
-        
-        width: 100px;
-        
-        padding: 8px;
-        align-self: center;
-        margin-left: 10px;
-        
-        align-items: center;
-        text-align: center;
-    }
-
-    .botoes{
-        display: flex;
+    .SOPmidia{
         flex-direction: column;
-        gap: 2px;
+        height: 60%;
+        gap: 5%;
     }
 
-    .loja {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        background-color: #AF4448;
-        color: white;
-        border-radius: 5px;
-        font-size: 12px;
-        text-decoration-line: none;
-
-        width: 45px;
-        height: 45px;
-        margin-left: 20px;
-        margin-right: 10px;
-    }
-
-    .imagem-usuario{
-        display: flex;
-        margin-left: 6px;
-        width: 32px;
-        height: 32px;
-    }
-    
-}    
+}
